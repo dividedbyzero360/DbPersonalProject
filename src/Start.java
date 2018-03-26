@@ -7,14 +7,14 @@ public class Start {
 		long endTime=0;
 		System.out.println("Please enter 1 for nested join technique or 2 for sort based join");
 		Scanner scan =new Scanner(System.in);
-		int choice = Integer.parseInt(scan.nextLine());
+		int choice = 2;//Integer.parseInt(scan.nextLine());
 		startTime=System.currentTimeMillis();
 		if(choice==1){
 			
 		}
 		else{
-			
-			
+			Phase1 phase1=new Phase1();
+			phase1.start();
 			
 			
 		}
